@@ -327,6 +327,17 @@ Daily ROI =
 Investment Amount × ROI Percentage / 100
 ```
 
+## Assumptions Made During Development
+
+- ROI is credited once daily using a cron job.
+- Referral income is distributed up to 3 levels.
+- Wallet balance includes ROI and referral income.
+- Duplicate ROI credits are prevented.
+- MongoDB Atlas can be used for production deployment.
+- JWT authentication is used for API security.
+
+
+
 ### Referral Income
 
 ```text
